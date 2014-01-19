@@ -1,4 +1,4 @@
-{
+loadWalkthrough({
   "meta": {
     "title": "Example",
     "author": "erengy",
@@ -61,4 +61,4 @@
       ]
     }
   ]
-}
+});

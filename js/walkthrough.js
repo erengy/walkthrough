@@ -4,17 +4,11 @@ var walkthroughOptions = {
   hideSpoilers: true
 }
 
-function loadWalkthrough(file) {
-  $.ajax({
-    'async': false,
-    'global': false,
-    'url': file,
-    'dataType': 'json',
-    'success': function (data) {
-      walkthroughData = data;
-      initDocument();
-    }
-  });
+function loadWalkthrough(data) {
+  if (data) {
+    walkthroughData = data;
+    initDocument();
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////////////
