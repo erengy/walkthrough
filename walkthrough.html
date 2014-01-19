@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <title>Walkthrough</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/walkthrough.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="header">
+        <h1 id="title">Walkthrough</h1>
+        <div id="description">If you're seeing this, either there's a problem with the walkthrough data, or your browser doesn't have JavaScript enabled.</div>
+      </div>
+      <div id="options">
+        <h2 id="title">Options</h2>
+        <label><input id="spoilers" type="checkbox" checked="true">Hide upcoming choices to avoid potential spoilers</label>
+        <p>Tip: Click on choice lines to see the next choice or to keep track of your progress.</p>
+      </div>
+      <div id="nav" class='hidden'>
+        <h2 id="title">Choose the route you'd like to follow</h2>
+        <div id="description"></div>
+        <ul id="routes"></ul>
+      </div>
+      <div id="main" class="hidden">
+        <h2 id="title"></h2>
+        <div id="description"></div>
+        <div id="choices"></div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/walkthrough.js"></script>
+    <script src="data/example.json"></script>
+  </body>
+</html>

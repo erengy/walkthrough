@@ -1,0 +1,112 @@
+body {
+  background-color: #fbfbfb;
+  color: #111;
+  font-family: Trebuchet MS, Arial, sans-serif;
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Georgia, serif;
+}
+
+h2 {
+  margin-top: 1.5em;
+}
+
+a, a:hover, a:visited {
+  color: #3355cc;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*******************************************************************************
+/* Table */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  width: 100%;
+}
+
+table thead > tr > th {
+  border-bottom: 2px solid rgb(221, 221, 221);
+  text-align: left;
+}
+
+table thead:first-child tr:first-child th,
+table thead:first-child tr:first-child td {
+  border-top: 0px none;
+}
+
+table thead > tr > th,
+table thead > tr > td,
+table tbody > tr > th,
+table tbody > tr > td {
+  padding: 4px;
+  line-height: 1.42857;
+  vertical-align: top;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+table tbody tr td:first-child {
+  text-align: right;
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+/*******************************************************************************
+/* Choice lines */
+
+.first {
+  border-top: 2px solid rgb(221, 221, 221);
+}
+
+.date {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  margin-right: 1em;
+}
+
+.route {
+  font-family: Georgia, serif;
+  font-weight: 700;
+}
+
+.alert {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.comment {
+  color: #888;
+  font-style: italic;
+}
+
+.previous,
+.previous .comment {
+  color: #aaa;
+}
+
+.next {
+  background-color: #f5fff5;
+}
+
+.hidden {
+  display: none;
+}
