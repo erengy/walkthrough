@@ -59,6 +59,23 @@ loadWalkthrough({
           ]
         }
       ]
+    },
+    {
+      "title": "Route #2",
+      "id": "route-2",
+      "description": "This route doesn't have any choices in it."
+    },
+    {
+      "title": "Route #3",
+      "id": "route-3",
+      "description": "Final route",
+      "route": [
+        {
+          "choices": [
+            "Final choice"
+          ]
+        }
+      ]
     }
   ]
 });
