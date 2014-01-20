@@ -29,6 +29,12 @@ input[type="checkbox"] {
   margin-right: auto;
 }
 
+.unselectable {
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+}
+
 /*******************************************************************************
 /* Table */
 
