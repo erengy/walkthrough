@@ -29,6 +29,8 @@ function applySpoilerOption() {
   var next = $('#main #choices tbody .next');
 
   if (walkthroughOptions.hideSpoilers) {
+    // Hide all future lines except the next one
+    next.removeClass('hidden');
     next.nextAll().addClass('hidden');
   } else {
     next.siblings().removeClass('hidden');
@@ -46,12 +48,8 @@ function trackProgress(element) {
   $(element).siblings().removeClass('next');
   $(element).next().addClass('next');
 
-  $(element).removeClass('hidden');
-  $(element).siblings().removeClass('hidden');
+  applySpoilerOption();
   if (walkthroughOptions.hideSpoilers) {
-    // Hide all future lines except the next one
-    $(element).nextAll().addClass('hidden');
-    $(element).next().removeClass('hidden');
     // Make sure the next line is in view
     $(element).next().get(0).scrollIntoView();
   }
