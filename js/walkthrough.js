@@ -184,6 +184,7 @@ function makeSpan(className, text) {
 $('#nav ul').on('click', 'li a', function() {
   createMainContent(this.id);
   applySpoilerOption();
+  return false;  // Prevent default
 });
 
 $('#options').on('click', '#spoilers', function() {
