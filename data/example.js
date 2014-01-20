@@ -44,7 +44,7 @@ loadWalkthrough({
               "save": "A"
             },
             "Choice after save",
-            "Final choice",
+            "Bad choice",
             {
               "end": "BAD END"
             },
@@ -52,7 +52,7 @@ loadWalkthrough({
               "load": "A"
             },
             "Choice after load",
-            "Final choice",
+            "Good choice",
             {
               "end": "GOOD END"
             }
