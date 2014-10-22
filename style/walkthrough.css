@@ -23,6 +23,10 @@ input[type="checkbox"] {
   margin-right: 5px;
 }
 
+label {
+  cursor: pointer;
+}
+
 .container {
   max-width: 960px;
   margin-left: auto;
