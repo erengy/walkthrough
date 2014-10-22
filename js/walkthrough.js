@@ -1,3 +1,7 @@
+// walkthrough.js
+// Copyright (c) 2014, Eren Okka
+// https://github.com/erengy/walkthrough
+
 var walkthroughData = null;
 
 var walkthroughOptions = {
